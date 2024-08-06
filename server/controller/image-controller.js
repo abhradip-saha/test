@@ -7,7 +7,7 @@ export const uploadImage = async (request, response)=> {
     }
     try{
         const file = await File.create(fileObj)
-        response.status(200).json({path : `https://abhradip-file.onrender.com/file/${file._id}`})
+        response.status(200).json({path : `https://test-backend-opal-two.vercel.app/file/${file._id}`})
     }
     catch(error){
         console.error(error.message);
