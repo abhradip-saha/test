@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL='https://abhradip-file.onrender.com'
+const API_URL='https://test-backend-opal-two.vercel.app'
 
 export const uploadFile = async (data)=>{
     try {
